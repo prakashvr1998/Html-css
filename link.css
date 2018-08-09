@@ -1,0 +1,16 @@
+body 
+	{
+		background-image: url("2.jpg ");
+	} 
+form
+	{	
+		height: 450px;
+		width: 600px;
+		font-family:Tempus Sans ITC;
+		background-color:red;
+		opacity:0.5;		
+	}
+.colo
+	{
+		color:blue;
+	}
