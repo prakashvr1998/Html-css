@@ -6,34 +6,58 @@
 	  <link rel="stylesheet" href="link.css">
    </head>
 	<body >
-	<center>
-	<font class="cala" color="red"><h2>Welcome to MY Websites</h2></font></center>
-      <center>
+	
+	<h2>Welcome to MY Websites</h2>
 	  <form >
-	  <font class="colo" color="blue">
-	  <br />
-         First name: <input type = "text" name = "first_name" />
-         Last name: <input type = "text" name = "last_name" /><br /><br />
-		 Languages Known:<input type = "checkbox" name = "pyt" value = "on"> Python
-         <input type = "checkbox" name = "php" value = "on"> Php
-		 <input type = "checkbox" name = "java" value = "on">Java
-		 <br /><br />
-		 Insterested in:<input type = "radio" name = "subject" value = "it"> IT
-         <input type = "radio" name = "subject" value = "bpo"> BPO<br /><br />
-		 Workplace:<select name = "dropdown">
+	  <table cellpadding="10">
+		 <tr>
+		 <td></td>
+		 </tr>
+         <tr>
+			<td>First name:</td>
+			<td><input type = "text" name = "first_name" /></td>
+		 </tr>
+         <tr>
+			<td>Last name: </td>
+			<td><input type = "text" name = "last_name" /></td>
+		</tr>
+		<tr> 
+			<td>Languages Known:</td>
+			<td><input type = "checkbox" name = "pyt" value = "on"> Python
+			<input type = "checkbox" name = "php" value = "on"> Php
+			<input type = "checkbox" name = "java" value = "on">Java
+		 </td>
+		 </tr>
+		 <tr>
+			<td>Insterested in:</td>
+			<td><input type = "radio" name = "subject" value = "it"> IT
+			<input type = "radio" name = "subject" value = "bpo"> BPO</td>
+		 </tr>
+		 <tr>
+		 <td>Workplace:</td>
+		 <td><select name = "dropdown">
             <option value = "Cbe" selected>Coimbatore</option>
             <option value = "try">trichy</option>
-         </select><br /><br />
-		 Picture:
-		 <input type = "file" name = "fileupload" accept = "image/*" /><br />
-		 <br /><br />
-		Description : 
-		 <textarea rows = "5" cols = "50" name = "description">
-            Enter description here...
-         </textarea><br /><br />
-         <input type = "submit" name = "submit" value = "Submit" />
-         <input type = "reset" name = "reset"  value = "Reset" />
-      </font>
+			</select></td>
+		 </tr>
+		 <tr>
+			<td>Picture:</td>
+			<td><input type = "file" name = "fileupload" accept = "image/*" /></td>
+		 </tr>
+		<tr>
+			<td>Password :</td> 
+			<td><input type="password" name="password1"></td>
+		 </tr>
+		 <tr>
+			<td> ReType-Password :</td> 
+			<td><input type="password" name="password1"></td>
+		 </tr>
+         <tr>
+			<td></td>
+			<td><input type = "submit" name = "submit" value = "Submit" />
+			<input type = "reset" name = "reset"  value = "Reset" /></td>
+		 </tr>
+	  </table>
 	  </form>
    </body>
 	
